@@ -1,0 +1,258 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero{
+    display: flex;
+  align-items: center;
+  justify-content:space-around;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  font-size: 0;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+ .hero-text, .hero-image{
+    display: inline-block;
+  font-size: 16px;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-text h1 span {
+  color: #e0701a;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+.hero-image {
+  flex: 1 1 300px;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.color{
+    color: #000000;
+}
+
+
+.section-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.section-header h2 .highlight {
+  color: #e0701a; /* standout color */
+}
+
+.section-header p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #f5f6fa;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: auto;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .product-info {
+      padding: 12px 10px;
+      flex: 1;
+    }
+    .product-info h3 {
+      font-size: 1.1rem;
+      margin-bottom: 6px;
+      color: #333;
+    }
+    .product-info .price {
+      font-size: 1rem;
+      color: #e65;
+      font-weight: bold;
+    }
+    .product-action {
+      padding: 12px;
+      background: #fff;
+    }
+    .product-action button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #ff6600;
+      color: #fff;
+      font-size: 0.95rem;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+    .product-action button:hover {
+      background: #e65a00;
+    }
+    @media (max-width: 900px) {
+      .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 500px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background: #fff;
+  color: #555;
+  font-family: sans-serif;
+  max-width: 1800px;
+}
+.footer__logo {
+  flex: 1 1 250px;
+  min-width: 200px;
+  margin-left: 200px;
+}
+.footer__logo img {
+  max-width: 150px;
+}
+.footer__logo p {
+  margin-top: 10px;
+}
+.footer__nav {
+  display: flex;
+  flex: 2 1 400px;
+  justify-content: space-around;
+  min-width: 300px;
+}
+.footer__nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__nav li {
+  margin: 5px 0;
+}
+.footer__nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer__social {
+  flex: 1 1 200px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  min-width: 150px;
+  margin-left: 100px;
+}
+.footer__social .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+}
+.footer__social .fa-linkedin { background: #0077B5; }
+.footer__social .fa-x-twitter { background: #1DA1F2; }
+.footer__social .fa-facebook { background: #3b5998; }
+.footer__social .fa-youtube { background: #FF0000; }
+.footer__social .fa:hover {
+  opacity: 0.8;
+}
