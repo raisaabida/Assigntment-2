@@ -20,6 +20,12 @@
     font-weight: 500;
 }
 
+.photo{
+    width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+
 .hero{
     display: flex;
   align-items: center;
@@ -293,6 +299,14 @@
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
+.deal-text{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
 .deal-card .deal-text a {
   display: inline-block;
   margin-top: 8px;
@@ -307,11 +321,21 @@
 .deal-card.large {
   flex: 2;
   min-width: 300px;
+  filter: brightness(60%);
 }
+
+
 
 .deal-card.small {
   height: auto;
+  filter: brightness(60%);
 }
+
+
+
+
+
+
 
 
 
@@ -359,6 +383,7 @@
   flex: 2 1 400px;
   justify-content: space-around;
   min-width: 300px;
+  padding: 20px;
 }
 .footer__nav ul {
   list-style: none;
@@ -414,6 +439,10 @@
     display: block; /* Only show Cart */
     margin-right: 0;
   }
+
+
+
+
 
   .navbar {
     padding: 1rem;
